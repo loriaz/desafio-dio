@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedClin - Sobre</title>
+    <link rel="stylesheet" href="base.css">
+
+<style>
+    html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #f8dea5;
+    padding: 10px 20px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    
+
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #90adce;
+    min-height: 150px;
+}
+.texto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: #000000;
+}
+.corpo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.medclin {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #003370;
+}
+.rodape {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #003370;
+}
+.lista {
+    line-height: 2;
+}
+.but {
+    background-color: #90adce;
+    width: 70px;
+    height: 30px;
+    border: 0;
+    border-radius: 2px;
+    color: #003370;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.frm {
+    text-align: center;
+}
+
+.frm input,
+.frm textarea {
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 20px;
+    border-radius: 2px;
+    border: solid 1px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.butt {
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="Menu.png" width="155" align="center">
+            <h1 class="titulo">Menu</h1>
+            <ul align="justify-content" class="lista">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre a MedClin</a></li>
+                <li><a href="atend.html">Horários de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="4.png" height="300">
+            </div>
+    
+            <div class="content">
+                <img class="img" src="cont.png" width="200px" align="left">
+                <h1 class="titulo">
+                   <u>Fale Conosco</u>
+                </h1>
+                <p class="corpo">
+                    Telefone: (30) 1234-5678 <br> WhatsApp: (30) 9934-5678 <br> E-Mail: secretaria@medclin.com.br <br>
+                    Endereço: Avenida Bardinet, 96 - Guichardville/SP - CEP: 12345-001 <br>
+                    <p>
+
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d656.616848136933!2d2.3163206029664036!3d48.83022281646119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6704c6724e019%3A0x8411c04e74f3cf88!2sRue%20Bardinet%2C%2075014%20Paris%2C%20Fran%C3%A7a!5e0!3m2!1spt-BR!2sbr!4v1690321918392!5m2!1spt-BR!2sbr" width=500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+                <hr>
+                <h1 class="titulo" align="center">
+                    <u>Formulário de Contato</u>
+                </h1>
+                <form class="frm" action="server" target="_blank">
+                    <input name="name" placeholder="Nome*" type="text"> <br>
+                    <input name="email" placeholder="E-mail*" type="email"> <br>
+                    <input name="assunto" placeholder="Assunto*" type="text"> <br>
+                    <textarea name="message" placeholder="Mensagem" rows="1"></textarea> <br>
+                <p>
+
+                </p> 
+            </div>  
+                <div class="butt">    
+                    <button class="but" type="submit">Enviar</button> <button class="but" type="reset">Limpar</button>
+                </div>
+                </form>
+            <div class="footer">
+                <h1 class="medclin">MedClin</h1>
+                <p class="rodape">
+                    TEL: (30) 1234-5678 <br>
+                    E-MAIL: SECRETARIA@MEDCLIN.COM.BR <br>
+                    AVENIDA BARDINET, 96 - GUICHARDVILLE/SP CEP: 12345-001 <br>
+                    SEGUNDA A SÁBADO, DAS 8H ÀS 19H.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

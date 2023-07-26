@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedClin - Horários</title>
+    <link rel="stylesheet" href="base.css">
+
+<style>
+    html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #f8dea5;
+    padding: 10px 20px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    
+
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #90adce;
+    min-height: 150px;
+}
+.texto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: #000000;
+}
+.corpo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.medclin {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #003370;
+}
+.rodape {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #003370;
+}
+.lista {
+    line-height: 2;
+}
+
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(238, 238, 238);
+    border: solid 1px rgb(212, 212, 212);
+}
+
+.tcorpo {
+   text-align: center;
+}
+
+table thead tr{
+    background-color: rgb(221, 221, 221);
+}
+
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="Menu.png" width="155" align="center">
+            <h1 class="titulo">Menu</h1>
+            <ul align="justify-content" class="lista">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre a MedClin</a></li>
+                <li><a href="atend.html">Horários de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="3.png" height="300">
+            </div>
+    
+            <div class="content">
+                <table align="center" width="500" cellspacing="0" align="center" cellpadding="5">
+                    <caption>
+                        <h2><u>Horários de Atendimento</u></h2>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>
+                                Serviços
+                            </th>
+                            <th>
+                                Segunda a Sexta
+                            </th>
+                            <th>
+                                Sábados
+                            </th>
+                            <th>
+                                Feriados
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="tcorpo">
+                        <tr>
+                            <td>
+                                Clínica Geral
+                            </td>
+                            <td>
+                                08h - 19h
+                            </td>
+                            <td>
+                                08h - 19h
+                            </td>
+                            <td>
+                                08h - 14h
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Pediatria
+                            </td>
+                            <td>
+                                08h - 19h
+                            </td>
+                            <td>
+                                08h - 19h
+                            </td>
+                            <td>
+                                08h - 14h
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Oftamologia
+                            </td>
+                            <td>
+                                08h - 19h
+                            </td>
+                            <td>
+                                14h - 19h
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Psicologia
+                            </td>
+                            <td>
+                                08h - 14h
+                            </td>
+                            <td>
+                                14h - 19h
+                            </td>
+                            <td>
+                               -
+                            </td>
+                            <tr>
+                                <td>
+                                    Odontologia
+                                </td>
+                                <td>
+                                    08h - 19h
+                                </td>
+                                <td>
+                                    08h - 14h
+                                </td>
+                                <td>
+                                    -
+                                </td>
+                            </tr>
+                        </tr>
+                    </tbody>
+                </table>
+                <h1 class="titulo">
+                    <u>Atendimento</u>
+                 </h1>
+                 <ul class="texto">
+                     <li>
+                         Atendimento direcionado e personalizado para as suas necessidades, buscando sempre a excelência no atendimento.
+                     </li>
+                     <li>
+                         Agende sua consulta pelo Telefone, Whatsapp ou pelo próprio Site. Buscamos sempre facilitar o atendimento.
+                     </li>
+                 </ul>
+            </div>
+    
+            <div class="footer">
+                <h1 class="medclin">MedClin</h1>
+                <p class="rodape">
+                    TEL: (30) 1234-5678 <br>
+                    E-MAIL: SECRETARIA@MEDCLIN.COM.BR <br>
+                    AVENIDA BARDINET, 96 - GUICHARDVILLE/SP CEP: 12345-001 <br>
+                    SEGUNDA A SÁBADO, DAS 8H ÀS 19H.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

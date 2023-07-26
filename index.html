@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedClin</title>
+    <link rel="stylesheet" href="base.css">
+
+<style>
+    html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #f8dea5;
+    padding: 10px 20px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    
+
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #90adce;
+    min-height: 150px;
+}
+.texto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: #000000;
+}
+.corpo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.medclin {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #003370;
+}
+.rodape {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #003370;
+}
+.lista {
+    line-height: 2;
+}
+
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="Menu.png" width="155" align="center">
+            <h1 class="titulo">Menu</h1>
+            <ul align="justify-content">
+                <li class="lista" ><a href="index.html">Página Inicial</a></li>
+                <li class="lista" ><a href="sobre.html">Sobre a MedClin</a></li>
+                <li class="lista" ><a href="atend.html">Horários de Atendimento</a></li>
+                <li class="lista" ><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="1.png" height="300">
+            </div>
+    
+            <div class="content">
+                <img class="img" src="Design sem nome (3).png" width="200px" align="left">
+                <h1 class="titulo">
+                   <u>Especialidades</u>
+                </h1>
+                <table cellspacing="30" class="texto">
+                    <tr>
+                        <td>Clínica Geral</td>
+                        <td>Pediatria</td>
+                        <td>Odontologia</td>
+                        <td>Oftamologia</td>
+                        <td>Psicologia</td>
+                    </tr>
+                </table>
+                <p class="corpo">
+                    Levar um atendimento médico de qualidade e humanizado à população brasileira.
+                    Esta é a nossa maior especialidade.
+                    Tudo com condições especiais para quem não tem acesso a planos de saúde ou não pode esperar meses na fila por um atendimento. 
+                </p>
+                <blockquote class="texto" align="center">
+                    Conheça a <b>MedClin</b> e marque já sua consulta!
+                </blockquote>
+            </div>
+    
+            <div class="footer">
+                <h1 class="medclin">MedClin</h1>
+                <p class="rodape">
+                    TEL: (30) 1234-5678 <br>
+                    E-MAIL: SECRETARIA@MEDCLIN.COM.BR <br>
+                    AVENIDA BARDINET, 96 - GUICHARDVILLE/SP CEP: 12345-001 <br>
+                    SEGUNDA A SÁBADO, DAS 8H ÀS 19H.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
